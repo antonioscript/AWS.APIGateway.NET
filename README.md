@@ -4,16 +4,6 @@ This repository demonstrates how to integrate AWS API Gateway with .NET applicat
 
 ## Summary
 
-- [API Gateway](#api-gateway)
-- [AWS REST API vs. HTTP API](#aws-rest-api-vs-http-api)
-- [Integration Types Supported by API Gateway](#integration-types-supported-by-api-gateway)
-- [Creating Amazon API Gateway](#creating-amazon-api-gateway)
-  - [Test Routes](#test-routes)
-- [Case](#case)
-  - [Test Case](#test-case)
-- [Conclusion](#conclusion)
-- [References](#references)
-
 
 
 ## API Gateway
@@ -97,7 +87,7 @@ This makes API Gateway a powerful layer for routing, securing, and managing APIs
 ![image](https://github.com/user-attachments/assets/359ee093-8c86-4f95-a492-b8e8f3dedf1a)
 
 
-## Case
+## Case With three Functions Lambda
 
 _> We now have three more created lambdas functions_
 
@@ -152,6 +142,71 @@ _> Let’s create a new API Gateway for them_
 ![image](https://github.com/user-attachments/assets/bc1450eb-6e15-4a54-930d-6e55ee6eadac)
 
 ------
+
+## Case When an API with multiple endpoints is hosted in a single lambda function 
+
+</br>
+
+</br>
+
+![image](https://github.com/user-attachments/assets/705eeaf7-a801-4489-a5da-be744053e86e)
+
+----
+
+![image](https://github.com/user-attachments/assets/2f510ed4-1b49-4b79-b5ac-1e382e41d096)
+
+
+----
+
+
+![image](https://github.com/user-attachments/assets/8f32ac7e-c47b-4cb6-8281-df87e0c8b2ee)
+
+
+---
+
+![image](https://github.com/user-attachments/assets/2bff8df9-9ccc-4f58-bc94-cd57ac3f4d09)
+
+
+
+-----
+
+![image](https://github.com/user-attachments/assets/e4a5f2a2-696b-4a81-b1d0-5249f6944f13)
+
+
+
+------
+
+
+![image](https://github.com/user-attachments/assets/0b5ec636-f759-4eff-ab38-9fb6a6ccaabc)
+
+
+---------------
+
+![image](https://github.com/user-attachments/assets/9f862ab3-ee7a-442c-96f9-26e5fc30f463)
+
+</br>
+
+### Test Case Via Swagger
+
+</br>
+
+![image](https://github.com/user-attachments/assets/1dbd31d7-29b6-4ab5-b5ca-451d5a03fce1)
+
+------
+
+### Test Via Insomnia/Postman
+
+![image](https://github.com/user-attachments/assets/0a89593c-eb5c-45ee-8d00-8ab8af849d49)
+
+
+-----
+
+![image](https://github.com/user-attachments/assets/e184a550-49e8-4fca-8fc2-270e90da0881)
+
+
+
+
+
 
 ## Conclusion
 
