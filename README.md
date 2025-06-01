@@ -4,13 +4,16 @@ This repository demonstrates how to integrate AWS API Gateway with .NET applicat
 
 ## Summary
 
-  - [API Gateway](#api-gateway)
-  - [AWS REST API vs. HTTP API](#aws-rest-api-vs-http-api)
-  - [Creating Amazon API Gateway](#creating-amazon-api-gateway)
-    - [Test Routes](#test-routes)
-  - [Case](#case)
-    - [Test Case](#test-case)
+- [API Gateway](#api-gateway)
+- [AWS REST API vs. HTTP API](#aws-rest-api-vs-http-api)
+- [Integration Types Supported by API Gateway](#integration-types-supported-by-api-gateway)
+- [Creating Amazon API Gateway](#creating-amazon-api-gateway)
+  - [Test Routes](#test-routes)
+- [Case](#case)
+  - [Test Case](#test-case)
+- [Conclusion](#conclusion)
 - [References](#references)
+
 
 
 ## API Gateway
@@ -28,6 +31,25 @@ This repository demonstrates how to integrate AWS API Gateway with .NET applicat
 AWS supports two versions of the API Gateway Services. The initial release was for the REST API variant which includes tons of features to design, develop, and maintain your API Gateway. Later, around 2019, AWS introduced HTTP APIs which simplified the Gateway creation and deployment. Do not get confused with the naming, both of these versions are built on HTTP protocol following the REST conventions. Internally AWS names them as v1 (REST API), and v2 (HTTP API)
 
 https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html
+
+
+## Integration Types Supported by API Gateway
+
+While this repository demonstrates integration with AWS Lambda functions, it's important to note that **API Gateway supports multiple types of backend integrations**, making it a flexible tool for various architectures.
+
+Here are the main integration types supported:
+
+| Integration Type         | Description                                                                 |
+|--------------------------|-----------------------------------------------------------------------------|
+| **Lambda Function**      | Most common integration in serverless setups. Executes a Lambda on request. |
+| **HTTP/HTTPS Endpoint**  | Forwards requests to any public or private HTTP-based service (e.g. EC2, ECS, on-premises servers). |
+| **AWS Service Proxy**    | Directly invokes AWS services like S3, DynamoDB, or SNS using API Gateway.  |
+| **VPC Link**             | Connects to resources in a private VPC via Network Load Balancer (e.g., internal microservices, legacy apps). |
+| **Mock Integration**     | Returns a mocked response without forwarding to any backend (useful for testing). |
+
+This makes API Gateway a powerful layer for routing, securing, and managing APIs across both **serverless** and **traditional** architectures.
+
+
 
 ## Creating Amazon API Gateway
 
@@ -130,6 +152,20 @@ _> Let’s create a new API Gateway for them_
 ![image](https://github.com/user-attachments/assets/bc1450eb-6e15-4a54-930d-6e55ee6eadac)
 
 ------
+
+## Conclusion
+
+In this example, we demonstrated how API Gateway can be used to centralize access to multiple Lambda functions. Instead of creating separate public endpoints for each Lambda — which would require multiple URLs, configurations, and individual integrations — we used a single API Gateway to manage everything.
+
+With this approach, we achieved:
+
+- **Grouping multiple Lambda functions** (such as `/test`, `/get-students`, `/weather`) under a single API structure  
+- Reduced complexity in exposure and security, since all requests go through a single entry point  
+- Centralized control for authentication, monitoring, and logging  
+- Easier route organization and versioning
+
+In short, API Gateway serves as a **smart and unified entry point** for multiple services — which is essential in modern, especially serverless, architectures.
+
 
 
 # References
