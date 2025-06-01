@@ -1,6 +1,18 @@
 # AWS.APIGateway.NET
 This repository demonstrates how to integrate AWS API Gateway with .NET applications. It covers key concepts such as creating and deploying REST APIs using API Gateway, integrating with Lambda or backend services and DynamoDB, configuring routes, authorizers, stages, and securing endpoints.
 
+
+## Summary
+
+  - [API Gateway](#api-gateway)
+  - [AWS REST API vs. HTTP API](#aws-rest-api-vs-http-api)
+  - [Creating Amazon API Gateway](#creating-amazon-api-gateway)
+    - [Test Routes](#test-routes)
+  - [Case](#case)
+    - [Test Case](#test-case)
+- [References](#references)
+
+
 ## API Gateway
 
 ![image](https://github.com/user-attachments/assets/6da87510-c62d-4cce-b8f2-488e2537d7fa)
