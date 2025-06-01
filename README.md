@@ -17,5 +17,36 @@ AWS supports two versions of the API Gateway Services. The initial release was f
 
 https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html
 
+## Creating Amazon API Gateway
+
+</br>
+
+![image](https://github.com/user-attachments/assets/56479bb4-8bc9-469f-8c3e-5e3c44b482c2)
+
+-----
+
+![image](https://github.com/user-attachments/assets/bca6561f-71f5-49b6-99f0-c1547f87cd3a)
+
+----
+
+![image](https://github.com/user-attachments/assets/e07a5a9b-de1e-4132-b60b-020d3bd30740)
+
+----
+
+![image](https://github.com/user-attachments/assets/93adeecc-7e1b-4b85-b580-aae86bd1475b)
+
+
+-----
+
+### Test Routes
+
+![image](https://github.com/user-attachments/assets/cb7d6479-9fae-48f0-945b-407e30807ed8)
+
+------
+
+
+![image](https://github.com/user-attachments/assets/359ee093-8c86-4f95-a492-b8e8f3dedf1a)
+
+
 # References
 https://codewithmukesh.com/blog/amazon-api-gateway-with-dotnet/
