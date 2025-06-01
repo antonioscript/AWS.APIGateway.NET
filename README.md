@@ -51,7 +51,15 @@ https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.ht
 
 ------
 
+</br>
 
+**Or**
+
+</br>
+
+![image](https://github.com/user-attachments/assets/6694dfff-7b62-48dd-bfee-5a8b8bd1179e)
+
+----
 ![image](https://github.com/user-attachments/assets/359ee093-8c86-4f95-a492-b8e8f3dedf1a)
 
 
