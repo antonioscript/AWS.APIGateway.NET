@@ -63,5 +63,62 @@ https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.ht
 ![image](https://github.com/user-attachments/assets/359ee093-8c86-4f95-a492-b8e8f3dedf1a)
 
 
+## Case
+
+_> We now have three more created lambdas functions_
+
+</br>
+
+</br>
+
+![image](https://github.com/user-attachments/assets/1c2c0c15-034e-4438-8059-f131d5ce533d)
+
+-----
+
+</br>
+</br>
+
+_> Let’s create a new API Gateway for them_
+
+-----
+
+![image](https://github.com/user-attachments/assets/e6aef2ed-21d9-43fd-bc9a-20fb3f214bb0)
+
+
+-----
+
+![image](https://github.com/user-attachments/assets/936c520d-400b-4ce7-b5f4-b3c8dd53d7f9)
+
+-----
+
+![image](https://github.com/user-attachments/assets/2c62550a-d0a6-4830-ab61-bf7c61300622)
+
+-----
+
+![image](https://github.com/user-attachments/assets/66ec866e-9693-4134-a142-754060de34d9)
+
+
+------
+
+</br>
+</br>
+</br>
+
+
+### Test Case
+
+![image](https://github.com/user-attachments/assets/fa721899-3ca6-4234-89d9-571d748abda4)
+
+------
+
+![image](https://github.com/user-attachments/assets/bb3e4ab5-166f-4a73-bac2-9335fe07d80d)
+
+-----
+
+![image](https://github.com/user-attachments/assets/bc1450eb-6e15-4a54-930d-6e55ee6eadac)
+
+------
+
+
 # References
 https://codewithmukesh.com/blog/amazon-api-gateway-with-dotnet/
